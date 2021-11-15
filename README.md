@@ -102,8 +102,6 @@ A seguir veremos como instalar e executar o projeto.
           $ npm run test
 
 
- Importante: Caso você não informe o ambiente a ser executado na linha de comando o Cypress irá assumir automaticamente o ambiente padrão para a execução. No nosso projeto o ambiente padrão é "staging".
-
 *********************************************************************************************************
 
 # Estrutura do projeto
