@@ -93,8 +93,8 @@ A seguir veremos como instalar e executar o projeto.
 
   - Cypress Open (modo visual):
 
-  * Você poderá rodar o projeto executando a linha de comando sugerida abaixo:
-      $ npx cypress open
+    * Você poderá rodar o projeto executando a linha de comando sugerida abaixo:
+        $ npx cypress open
 
   - Cypress run (modo headless):
 
