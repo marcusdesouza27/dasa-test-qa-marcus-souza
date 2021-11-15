@@ -22,7 +22,7 @@ report.generate({
   customData: {
     title: 'Run info',
     data: [
-      { label: 'Project', value: 'Booking Automation Tests' },
+      { label: 'Project', value: 'dasa-test-qa-marcus-souza' },
       { label: 'Release', value: '1.0.0' },
       { label: 'Execution Start Time', value: `${dateTime}` },
       { label: 'Execution End Time', value: `${dateTime}` }
