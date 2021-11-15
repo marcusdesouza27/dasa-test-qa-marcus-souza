@@ -3,6 +3,15 @@
 Solução para o Desafio de QA da Dasa por Marcus Henrique.
 
 ********************************************************************************************************
+
+Aplicação base:
+
+Antes de executar a automação é mnecessário instalar a aplicação base que encontra-se anexada ao projeto.
+
+Para instalar a aplicação na sua máquina, favor clicar [aqui](https://github.com/marcusdesouza27/dasa-test-qa-marcus-souza/blob/master/aplicacao_base/README.md).
+
+
+********************************************************************************************************
 ## Sobre o projeto:
 
 Este projeto de automação foi desenvolvido em Cypress. 
