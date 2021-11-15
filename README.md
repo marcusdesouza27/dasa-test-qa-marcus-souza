@@ -61,16 +61,27 @@ A seguir veremos como instalar e executar o projeto.
       - Execute o instalador
       - Reinicie o Windows (caso seja solicitado)
       - Para verificar se o nodeJs está instalado corretamente execute os comandos abaixo:
+      ```bash
         $ node --version
+      ```
+      ```bash
         $ npm --version  
+      ```
 
     * Usuários de Linux (Ubuntu):
       Para instalar o nodeJs no linuxs, siga as instruções abaixo:
       - Run the following command to install nodeJs: 
+      ```bash
         $ sudo apt-get install nodejs
+      ```
+
       - To verify that node was installed correctly run the commands below: 
+      ```bash
         $ node --version
+      ```
+      ```bash
         $ npm --version
+      ```
 
 
 
@@ -86,7 +97,9 @@ A seguir veremos como instalar e executar o projeto.
   * Abra o terminal (CMDER, Linux terminal, Powershell etc.)
 
   * Clone o projeto com a linha de comando abaixo:
+  ```bash
         $ git clone https://github.com/marcusdesouza27/dasa-test-qa-marcus-souza.git
+  ```
 
   * Informe o seu usuário e senha do github (caso seja solicitado)
   * Quando o clone for finalizado acesse a nova pasta que contém o projeto: "~/dasa-test-qa-marcus-souza"
@@ -94,7 +107,9 @@ A seguir veremos como instalar e executar o projeto.
 
 2- Instalando as dependências do Cypress necessárias para o projeto:
   * Para instalar as dependencias do Cypress execute a linha de comando abaixo:
+  ```bash
       $ npm install
+  ```
 
 
 
@@ -103,12 +118,16 @@ A seguir veremos como instalar e executar o projeto.
   - Cypress Open (modo visual):
 
     * Você poderá rodar o projeto executando a linha de comando sugerida abaixo:
+    ```bash
         $ npx cypress open
+    ```
 
   - Cypress run (modo headless):
 
     * Você poderá rodar o projeto executando a linha de comando sugerida abaixo:
+    ```bash
           $ npm run test
+    ```
 
 
 *********************************************************************************************************
