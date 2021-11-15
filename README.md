@@ -119,7 +119,7 @@ A seguir veremos como instalar e executar o projeto.
 
     * Você poderá rodar o projeto executando a linha de comando sugerida abaixo:
     ```bash
-    $ npx cypress open
+    npx cypress open
     ```
 
   - Cypress run (modo headless):
