@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    "cypress",
+    "chai-friendly"
+  ],
+  "extends": [
+    "plugin:cypress/recommended",
+    "airbnb-base/legacy",
+    "plugin:chai-friendly/recommended"
+  ],
+  "env": {
+    "cypress/globals": true
+  },
+  "rules": {
+    "camelcase": "off",
+    "max-len": "off",
+    "class-methods-use-this": "off",
+    "no-shadow": "off",
+    "no-console": "off",
+    "chai-friendly/no-unused-expressions": 2,
+    "linebreak-style": "off",
+    "no-plusplus": [
+      2,
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  }
+}

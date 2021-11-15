@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://localhost:8080/",
+    "video": false,
+    "watchForFileChanges": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "configFile": "reporter-config.json",
+        "reportDir": "report",
+        "overwrite": true,
+        "html": true,
+        "json": true
+    }
+}

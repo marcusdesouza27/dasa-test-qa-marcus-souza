@@ -1,0 +1,54 @@
+{
+  "name": "dasa-test-qa-marcus-souza",
+  "version": "1.0.0",
+  "description": "Solução para teste proposto no Desafio Técnico de QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusdesouza27/dasa-test-qa-marcus-souza.git"
+  },
+  "author": "Marcus Souza",
+  "license": "ISC",
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "bugs": {
+    "url": "https://github.com/marcusdesouza27/dasa-test-qa-marcus-souza/issues"
+  },
+  "homepage": "https://github.com/marcusdesouza27/dasa-test-qa-marcus-souza#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.11.3",
+    "mocha": "^8.3.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
